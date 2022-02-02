@@ -1,0 +1,16 @@
+body {
+  background-color: #404040;
+}
+
+.container {
+  width: 80%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.container > h3 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ada7a7;
+}
+/*# sourceMappingURL=style.css.map */
