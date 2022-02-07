@@ -1,0 +1,48 @@
+p {
+    color: red;
+}
+
+#a1 {
+    color: blue;
+}
+
+.cor2 {
+    color: green;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+h2 {
+    height: 150px;
+}
+
+h3 {
+    color: blue;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: purple;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-espaco-com-estrelas-ilustracao-vetorial_97886-319.jpg?size=626&ext=jpg);
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    background-color: orange;
+    color: orange;
+}
+
+#Theuzin {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: white;
+}
