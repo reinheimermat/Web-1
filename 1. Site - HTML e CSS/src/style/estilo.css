@@ -38,16 +38,12 @@ nav ul {
 nav ul li {
     /* float: left; */
     display: inline-block;
-    /* background: rgba(0, 0, 0, 0.445); */
+    background: rgba(0, 0, 0, 0.445); 
     margin: 0 5px;
 }
 
 nav ul {
     background-color: transparent;
-}
-
-nav li {
-    background: rgba(0, 0, 0, 0.445);
 }
 
 nav ul li a {
