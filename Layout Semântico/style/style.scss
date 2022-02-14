@@ -1,0 +1,36 @@
+body {
+    background-color: #dddddd;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 250px;
+    background-color: rgb(67, 131, 226);
+}
+
+.menu {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.corpo {
+    min-height: 800px;
+    padding: 35px;
+    background-color: white;
+}
+
+.artigo {
+    border: 1px solid blue;
+    padding: 15px;
+    margin: 8px;
+}
+
+.rodape {
+    margin: auto;
+    
+}
+
