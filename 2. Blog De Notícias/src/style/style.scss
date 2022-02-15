@@ -1,0 +1,115 @@
+// Import de Fontes
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$cor1: #f9f9f9;
+$cor2: #dddddd;
+$cor3: #999999;
+$cor4: #232323;
+$cor5: #4030ab;
+$cor6: #64ff;
+
+$tamanho-fonte: 18px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+body {
+    background-color: $cor2;
+    color: $cor4;
+
+    a {
+        text-decoration: none;
+        color: $cor4;
+    }
+}
+
+nav {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+    background-color: $cor1;
+    border-bottom: 1px solid $cor3;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+    .logotipo {
+        padding-left: 10%;
+        display: inline-block;
+        font-size: 1.2rem
+    }
+
+    .logotipo > span {
+        color: $cor6;
+        font-size: 1.2rem;
+    }
+
+    .menu {
+        float: right;
+        padding-left: 10%;
+        padding-right: 10px;
+    }
+
+    .menu > a {
+        font-size: 1.2rem;
+        padding: 8px 15px;
+        transition: 0.8s;   
+    }
+
+    .menu a:hover {
+        background-color: $cor6;
+        color: $cor1;
+    }
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    background-color: #232323;
+}
+
+article {
+    padding: 15px;
+    margin: 10px 0;
+    overflow: hidden;
+    background-color: white;
+    
+    img {
+        width: 16%;
+        float: left;
+        padding: 5px;
+        border: 1px solid $cor2;
+        border-radius: 5px;
+        background-color: $cor1;
+        margin-right: 10px;
+    }
+}
+
+    h1 {
+        margin-bottom: 25px;
+    }
+
+    h1:hover {
+        cursor: pointer;
+        color: $cor6;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        color: $cor3;
+        background-color: #232323b2;
+        text-align: center;
+    }
