@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #dddddd;
+  color: #232323;
+}
+
+.item {
+  border: 1px solid #232323;
+  background-color: #999999;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  -ms-grid-rows: (150px)[3];
+      grid-template-rows: repeat(3, 150px);
+}
+/*# sourceMappingURL=style.css.map */
