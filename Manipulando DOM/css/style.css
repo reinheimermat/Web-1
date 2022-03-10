@@ -17,3 +17,25 @@ body {
     padding: 25px 35px 45px;
     background-color: #f9f9f9;
 }
+
+img {
+    width: 350px;
+    height: 230px;
+    cursor: pointer;
+}
+
+hr {
+    margin: 75px 0 45px;
+}
+
+input, button {
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 100px;
+    text-align: center;
+    padding: 50px;
+    font-weight: 700;
+    background-color: #00ffff;
+}
