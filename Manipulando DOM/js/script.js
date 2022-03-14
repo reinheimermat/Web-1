@@ -66,7 +66,7 @@ function mudarTexto7(elemento) {
 }
 
 // 8. Chamando uma function que chama outra
-function calcular(valor1, valor2) {,,,,,,,
+function calcular(valor1, valor2) {
     // Converte para número
     /*  const valorConvertido1 = parseInt(valor1.value);
         const valorConvertido2 = parseInt(valor2.value); */
