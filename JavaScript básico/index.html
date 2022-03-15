@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios básicos de programação</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
@@ -15,14 +16,16 @@
         <h3>1. Escreva um algoritmo que receba 2 valores. Some os valores e mostre o resultado na tela.</h3>
         
         <!-- Algoritmo -->
-        <p>Digite os valores</p>
-
-        <input type="number" id="n1">
-        <input type="number" id="n2">
-
-        <button onclick="somar(n1, n2)">Calcular</button>
-
-        <p>Resultado da soma: <span id="res">....</span></p>
+        <div class="box">
+            <p>Digite os valores:</p>
+            <input type="number" id="n1" placeholder="Digite o primeiro número..." required>
+            <input type="number" id="n2" placeholder="Digite o segundo número..." required>
+            
+            <button onclick="somar(n1, n2)">Calcular</button>
+            <button id="btn-limpar" onclick="limparCampos()">Limpar Campos</button>
+        </div>
+        <p id="res-1">Resultado da soma: <span id="res">....</span></p>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

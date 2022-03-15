@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #6379dd;
+    padding: 0 130px;
+}
+
+.container {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 2.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container hr {
+    margin: 10px 0;
+}
+
+.container h3 {
+    padding: 5px 5px;
+    background-image: linear-gradient(to right, #6379dd, transparent);
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.container .box {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.container .box input {
+    margin-left: 5px;
+    padding: 2px 0 2px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.container button {
+    margin-left: 5px;
+    padding: 2px 25px;
+    background-color: #00ff00;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #23cf23;
+}
+
+.container #btn-limpar {
+    margin: 5px;
+    padding: 2px 25px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.container #btn-limpar:hover {
+    background-color: rgb(228, 24, 24);
+}
+
+.container .box p {
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.container #res-1 span {
+    color: #6379dd
+}
+
