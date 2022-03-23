@@ -1,34 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
 }
 
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /*! Remover!!! */
     color: #232323;
     background-color: #232323;
+    background-image: url('../img/barber-cover.jpg');
+    background-repeat: none;
+    background-size: cover;
 }
 
+/* Login animado */
 #modal {
     width: 400px;
     margin: 35px auto;
     padding: 30px;
     border-radius: 5px;
-    background-color: #f7f7f7;
+    background-color: rgba(117, 117, 117, 0.082);
+    backdrop-filter: blur(5px);
+    
     opacity: 0;
     transform: translateX(-20px);
 }
 
+#modal h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    color: #918058;
+}
+
+
 label {
     display: block;
     margin: 10px 0 5px;
-}
+    color: white;
+}   
 
 input {
     width: 100%;
@@ -36,23 +52,33 @@ input {
     font-size: 1rem;
     border-radius: 8px;
     border: solid 1px #dddddd;
+    background-color: transparent;
+    color: #808080;
+    /* outline: none; */
 }
 
 button {
     margin-top: 20px;
     font-size: 1rem;
     padding: 8px 25px;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 #modal button {
-    background-color: #f2c800;
+    background-color: transparent;
+    border: 1px solid #918058;
+    border-radius: 20px;
+    color: #918058;
+    transition: 1s;
 }
 
 #modal button:hover {
-    background-color: #ffd815;
+    background-color: #918058;
+    color: black;
+    transition: 1s;
+    translate: 0.5s;
 }
 
 #modal.animar {
@@ -60,8 +86,8 @@ button {
     animation-duration: 0.3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    /* ? Termina e fica  */
-    /* ? fill-mode: Modo de  preenchimento, por padrão faz a animação e volta ao inicio */
+    /* Termina e fica */
+    /* fill-mode: Modo de preenchimento, por padrão faz a animação e volta ao início */
 }
 
 #load {
@@ -72,7 +98,7 @@ button {
     border-radius: 50%;
     /* display: none; */
 
-    /* * Cores */
+    /* Cores */
     border-top-color: #008cff99;
     border-left-color: #008cff77;
     border-bottom-color: #008cff55;
@@ -87,13 +113,12 @@ button {
 }
 
 
-/* * Animações */
 
+/* Animações */
 @keyframes slide {
     50% {
         transform: translateX(5px);
     }
-
     100% {
         transform: translateX(0);
         opacity: 1;
